@@ -3,21 +3,18 @@
         "id": 1,
         "name": "CervezaAmstel",
         "price": 2,
-        "description": "Riiiica",
-        "Image": "Nose perro"
+        "description": "Riiiica"
     },
     {
         "id": 2,
         "name": "CervezaBrahma",
         "price": 1,
-        "description": "Del Barrio",
-        "Image": "Nose perro"
+        "description": "Del Barrio"
     },
     {
         "id": 3,
         "name": "CervezaCorona",
         "price": 3,
-        "description": "La de toretto",
-        "Image": "Nose perro"
+        "description": "La de toretto"
     }
 ]

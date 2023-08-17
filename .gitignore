@@ -1,0 +1,3 @@
+#USO DE GIT IGNORE:*se utiliza como una coincidencia comodín / se usa para ignorar las rutas relativas al archivo .gitignore # es usado para agregar comentarios
+# Ignora la carpeta node_modules
+node_modules

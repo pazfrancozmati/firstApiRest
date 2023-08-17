@@ -6,6 +6,7 @@ const rutaProductsJSON = path.resolve(__dirname, "../data/products.json");
 aca la direccion es RELATIVA, respecto DONDE ESTOY AHORA
 */
 /*------------------------------------------------------------------------ */
+/*requiero modulo  fs para poder leer o escribir archivos */
 const fs = require("fs");
 /* Leeo el archivo que esta en la ruta que tengo y luego lo guardo en una variable, 
 todavia en su formato original, JSON. 
@@ -32,6 +33,8 @@ const controller = {
     createProduct: (req, res) => {
         /*Creo un producto vacio */
         let newProduct = {};
+        /*Creo el numero del id que le corresponde, ya que no viene en mi req*/
+        newProduct.id = productsJS.length + 1;
         /*Campo nombre obligatorio */
         /*Si el nombre del producto viene indefinido entra */
         /* !req.body.name  es lo mismo que (req.body.name = undefined) */
@@ -40,10 +43,8 @@ const controller = {
         }
         /*Guardo el atributo name que me viene en el body en el campo name de mi objeto vacio*/
         newProduct.name = req.body.name;
-        newProduct.price = req.body.description;
-        newProduct.image = req.body.image;
-        /*Creo el numero del id que le corresponde, ya que no viene en mi req*/
-        newProduct.id = productsJS.length + 1;
+        newProduct.price = req.body.price;
+        newProduct.description = req.body.description;
         /*Se agrega el nuevo producto al arreglo de JS */
         productsJS.push(newProduct);
         /* convierto el arreglo de JS A JSON */

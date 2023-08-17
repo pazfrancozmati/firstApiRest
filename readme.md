@@ -7,6 +7,7 @@
 
 ```
 RUTAS:
+http://localhost:3000/images/DOC1691452359381.jpg
 
 http://localhost:3000/MesirveTienda/listProducts
 

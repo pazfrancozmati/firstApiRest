@@ -1,0 +1,11 @@
+La ruta ingresada es:/MesirveTienda/productById/1
+La ruta ingresada es:/MesirveTienda/productById/2
+La ruta ingresada es:/MesirveTienda/productById/3
+La ruta ingresada es:/MesirveTienda/productById/4
+La ruta ingresada es:/MesirveTienda/productByName/Habitacion
+La ruta ingresada es:/MesirveTienda/productByName/CervezaCorona
+La ruta ingresada es:/MesirveTienda/productByName/CervezaAmstel
+La ruta ingresada es:/MesirveTienda/productByName/CervezaBrahma
+La ruta ingresada es:/MesirveTienda/productByName/CervezaCorona
+La ruta ingresada es:/MesirveTienda/listProducts
+
