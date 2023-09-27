@@ -16,5 +16,17 @@
         "name": "CervezaCorona",
         "price": 3,
         "description": "La de toretto"
+    },
+    {
+        "id": 4,
+        "name": "cervezaAmstelNegra",
+        "price": "7,5",
+        "description": "pack"
+    },
+    {
+        "name": "cervezaAmstelNegra",
+        "price": "7,5",
+        "description": "pack",
+        "image": "DOC1692492130178.jpg"
     }
 ]

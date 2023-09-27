@@ -13,4 +13,5 @@ const logs = (req, res, next) => {
     next();
 }
 
+/*Exporto el modulo logs */
 module.exports = logs;
